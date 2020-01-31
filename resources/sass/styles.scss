@@ -1,0 +1,14 @@
+// Definir as variáveis para sobrescrever aqui
+
+$font-size-root: 29px;
+$btn-border-radius: 20px;
+
+// Manter o import do vuetify após sobrescrever as variáveis
+@import "~vuetify/src/styles/styles.sass";
+
+$material-light: map-merge(
+  $material-light,
+  (
+    cards: lightgrey
+  )
+);
